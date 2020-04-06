@@ -1,0 +1,20 @@
+List of tests:
+
+Change Scroll Bars
+
+Set 1:
+    Display a pandas frame
+    Display an array
+    Display a numpy array
+
+Set 2:
+    Edit a pandas frame
+    Edit an array
+    Edit a numpy array
+
+Set 3
+    Virtual Rows and Row Widgets
+    virtual mode with a list of objects
+    
+    zero column width
+
