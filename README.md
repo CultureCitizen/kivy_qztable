@@ -18,4 +18,15 @@ This is a severe limitation when trying to use Kive as a gui library for any dat
     - Column and Row sizing
     - Virtual rows to display arbiitrary data within the virtual rows
     - A table model class to be used when the data is not a list, array or dataframe
+    - The default widget for the table is a CellLabel.
+    - When using a TableModel any widget can be used
+    - When NOT using a TableModel , any widget that follows the CellWidget protocol can be used
+    
+    The CellWidget protocol requires the following methods to be implemented
+    
+    def get_value(self)->Any: #returns the value of the widget, usually the text value
+    def set_value(self,value:Any):  #Sets the value of the widget, usually it will put the value in the text property
+    def on_value_changed(self,instance,value): #defines an event that is triggered when the value of the widget is changed
+    
+   
     
