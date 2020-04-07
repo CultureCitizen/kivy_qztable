@@ -11,6 +11,7 @@ This is a severe limitation when trying to use Kive as a gui library for any dat
   Hence , the grid creates only the widgets that are visible within the widget boundaries. This will save tons of memory at the expense of extra rendering time ( which is not really a problem in a modern pc , but might be a problem for smaller devices like mobile phones). 
   
   The main features of the table are the following:
+  
     - Horizontal and vertical scroll bars
     - Multiple selection of rows and columns ( shift+ select is still missing in beta 0.9)
     - Built-in support for displaying dataframe , lists and numpy arrays
